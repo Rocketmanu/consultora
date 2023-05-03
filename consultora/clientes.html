@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Outflip</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-frontpage.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <img src="/Imagenes Astro/pngfind.com-aa-logo-png-4969740.png" alt="" width="30px", height="30px"> </img><a class="navbar-brand" href="index.html">LIMITLESS CONSULTANCY</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Acerca de nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="clientes.html">Nuestros clientes</a>
+          </li>
+          <li class="nav-item ">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-primary py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-5">Nuestros clientes</h1>
+          <p class="lead mb-5 text-white-50"><b>LIMITLESS</b> es una marca registrada que gracias al trabajo realizado estamos generando una gran expansion.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="table-responsive-xl mb-5" >
+        <table class="table">
+            <thead>
+              <tr>
+                  <h2>Clientes</h2>
+                
+              </tr>
+      
+            </thead>
+            <tr>
+              <td><img src="/Imagenes Astro/Sponsors/naranja x.jpeg" width="250" height="150"/></td>
+            
+            
+                <td><img src="/Imagenes Astro/Sponsors/Galicia-Eminent-1024x427.webp"  width="250" height="150"/></td>
+             
+
+                <!--
+                  <td><img src="img/vs.png"  width="200" height="200"/></td>
+               
+                    <td><img src="img/adidas.png"  width="200" height="200"/></td>
+
+                -->
+                  </tr>
+          </table>
+          
+    </div>
+   
+        <h2><br><b>LIMITLESS</b> creando lazos... </h2>
+        <p> Queremos agradecer a nuestros sponsors. Gracias a ellos dia a dia estamos creciendo.
+           </p>
+          <br><br><br>
+          <div class="table-responsive-xl mb-10 mt-10">
+              <table class="table">
+                  <thead>
+                    <tr>
+                        <h2>Sponsors</h2>
+                      
+                    </tr>
+            
+                  </thead>
+                  <tr>
+                    <td><img src="/Imagenes Astro/Sponsors/Accenture sponsor.jpeg" width="200" height="200"/></td>
+                  
+                  
+                      <td><img src="/Imagenes Astro/Sponsors/pngwing.com.png"  width="150" height="150"/></td>
+                   
+                      <!--
+                        <td><img src="img/yam.png"  width="200" height="200"/></td>
+                     
+                          <td><img src="img/mala.png"  width="200" height="200"/></td>   -->
+                        </tr>
+                </table>
+                
+          </div>
+          
+         
+          <br><br><b>LIMITLESS </b> Se encuentra en constante crecimiento, por lo que si te queres sumar a nuestro programa de sponsos contactanos por nuestros medios oficiales.</p>
+          <br><br>
+        
+
+    
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; LIMITLESS CONSULTANCY 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+</body>
+
+<script>
+    $(document).ready(function() {
+      $('#example').DataTable( {
+          "ajax": 'array.txt'
+      } );
+  } );
+  </script>
+
+</html>
